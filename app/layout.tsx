@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -28,6 +29,7 @@ export default function RootLayout({
         ></div>
         {children}
         <div id="page-bottom-spacer" className="h-16"></div>
+        <Footer />
       </body>
     </html>
   );

@@ -4,8 +4,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="bg-neutral-800">
-      <nav className="container py-2 mx-auto">
-        <ul className="flex space-x-6 text-lg justify-center">
+      <nav className="container py-3 mx-auto">
+        <ul className="flex space-x-6 text-lg justify-center relative items-center">
+          <li className="italic font-bold font-serif text-4xl absolute left-5 hidden sm:block hover:scale-90">
+            <a href="https://omarelbarazi.com/">O7BR</a>
+          </li>
           <li>
             <NavLink href="/">Home</NavLink>
           </li>
@@ -13,7 +16,7 @@ const Navbar = () => {
             <NavLink href="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink href="https://github.com/garrett-huggins/next13-blog-starter">
+            <NavLink href="https://github.com/OmarElBarazi/Next-Tailwind-Portfolio.git">
               Github
             </NavLink>
           </li>
