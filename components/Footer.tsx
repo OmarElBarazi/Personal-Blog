@@ -20,7 +20,7 @@ export default function Footer() {
             href="https://omarelbarazi.com/"
             className="font font-bold italic font-serif text-3xl hover:scale-125 mt-1"
           >
-            O7BR
+            O<strong className="text-orange-600">7</strong>BR
           </Link>
         </div>
         <div className="w-full flex flex-col items-center text-center space-y-2 mb-10">
@@ -35,7 +35,7 @@ export default function Footer() {
             <Link href="https://www.linkedin.com/in/omar-el-bakir-el-barazi-940b301b8/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-orange-600"
                 fill="currentColor"
                 viewBox="0 0 15 15"
               >
@@ -45,7 +45,7 @@ export default function Footer() {
             <Link href="https://wa.me/qr/UBY2YJIWZ4L5H1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-orange-600"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -55,7 +55,7 @@ export default function Footer() {
             <Link href="mailto:omar_albarazi@outlook.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-orange-600"
                 fill="currentColor"
                 viewBox="0 0 12 12"
               >
@@ -65,7 +65,7 @@ export default function Footer() {
             <Link href="https://www.instagram.com/barazi_omar/?hl=hr">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-orange-600"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -75,7 +75,7 @@ export default function Footer() {
             <Link href="https://twitter.com/OmarAlBarazi1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-orange-600"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -85,7 +85,7 @@ export default function Footer() {
             <Link href="https://github.com/OmarElBarazi">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-orange-600"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
