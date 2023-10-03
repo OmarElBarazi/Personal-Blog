@@ -16,7 +16,7 @@ const Navbar = () => {
             <NavLink href="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink href="https://github.com/OmarElBarazi/Next-Tailwind-Portfolio.git">
+            <NavLink href="https://github.com/OmarElBarazi/Personal-Blog.git">
               Github
             </NavLink>
           </li>
